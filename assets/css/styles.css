@@ -1,17 +1,18 @@
 /*=============== BODY BACKGROUND ===============*/
-/*body {
-  background-image: url('image/perfil.png');
+body {
+  background-image: url('../img/background3.jpg');
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: fixed;
   background-size: cover;
+  min-height: 100vh;
 }
 
 @keyframes blink {
   0% { opacity: 1; }
   50% { opacity: 0; }
   100% { opacity: 1; }
-}*/
+}
 
 
 /*=============== GOOGLE FONTS ===============*/
@@ -41,7 +42,7 @@
   --first-color: hsl(var(--hue), 100%, 40%);
   --first-color-alt: hsl(var(--hue), 56%, 35%);
   --title-color: hsl(228, 8%, 95%);
-  --text-color: hsl(228, 8%, 65%);
+  --text-color: hsl(233, 36%, 96%);
   --body-color: hsl(228, 15%, 20%);
   --container-color: hsl(228, 15%, 15%);
 
@@ -103,7 +104,7 @@ body {
 }
 
 body {
-  background-color: var(--body-color);
+ /* background-color: var(--body-color);*/
   color: var(--text-color);
 }
 
@@ -589,7 +590,7 @@ bottom: 0;
 }
 /*=============== FOOTER ===============*/
 .footer{
- /* background-color: var(--container-color);*/
+  background-color: var(--container-color);
   padding-block: 3.5rem 2rem;
 }
 
